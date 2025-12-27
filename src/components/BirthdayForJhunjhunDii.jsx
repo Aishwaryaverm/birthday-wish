@@ -158,7 +158,7 @@ export default function BirthdayForJhunjhunDii() {
           </motion.button>
 
           {/* 🧚 FAIRY IMAGE CARDS */}
-          <div className="mt-24 flex gap-8 overflow-x-auto px-6 snap-x">
+          <div className="mt-24 sm:flex-row flex flex-col gap-8 overflow-x-auto px-6 snap-x">
             {[
               { src: "/img-1.png", text: "A smile that feels like home 💖" },
               { src: "/img-2.png", text: "Forever my safe place 🌸" },
@@ -187,7 +187,7 @@ export default function BirthdayForJhunjhunDii() {
           </div>
 
           {/* ✍️ Signature */}
-          <p className="mt-20 text-gray-500 text-sm">
+          <p className="mt-20 text-gray-700 text-sm">
             — Made with endless love 🤍
           </p>
         </div>
